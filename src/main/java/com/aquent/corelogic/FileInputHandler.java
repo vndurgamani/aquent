@@ -20,7 +20,7 @@ public class FileInputHandler {
 		//TreeMap<String, Date> mapout = obj.getFile("args[0]");// args[0]
 		TreeMap<String, Date> mapout;
 		
-		if(0==args.length){
+		if(0<args.length){
 			String fileInput = args[0];
 			String fileOutput = args[1];
 			mapout = obj.getFile(fileInput);
